@@ -32,7 +32,7 @@ const db = mongoose.connection;
 db.on('error', console.log);
 
 app.get('/', (req, res) => {
-  res.send('test');
+  res.send('test API on our blogPost');
 });
 
 app.post('/register', (req, res) => {
