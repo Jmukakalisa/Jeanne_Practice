@@ -26,7 +26,7 @@ function getUserFromToken(token) {
   return User.findById(userInfo.id);
 }
 
-await mongoose.connect('mongodb+srv://Jmukakalisa:Wharfdaycare%401@cluster0.fjkf6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
+await mongoose.connect('mongodb+srv://MERSA:mersa@cluster0.dzreh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
 {useNewUrlParser:true,useUnifiedTopology:true,});
 const db = mongoose.connection;
 db.on('error', console.log);
