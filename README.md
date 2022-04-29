@@ -14,6 +14,8 @@
 
 # after installation u will see that the main ".js" file is "server.js"
 
+# change the "url" on mongoDb connection to ur Dd's
+
 # now, you are ready to go
 
 # you can either run: "npm start" to save yourself troubles of reruning "node server.js" everytime u need to start the server.
